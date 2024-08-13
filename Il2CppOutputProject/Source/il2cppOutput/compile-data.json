@@ -29,13 +29,13 @@
       "TestingOption": 0
     },
     "Statistics": {
-      "StatsOutputDir": "/Users/josephmoreno/Desktop/CardBoardBuild_New/CardBoardPublishNew/CardboardA/CardBoardA/Il2CppOutputProject/Source/il2cppOutput"
+      "StatsOutputDir": "/Users/melanienakaue/Documents/GitHub/CardboardA/Il2CppOutputProject/Source/il2cppOutput"
     },
     "Assembly": [],
     "Directory": [],
     "ExtraTypesFile": [],
-    "Generatedcppdir": "/Users/josephmoreno/Desktop/CardBoardBuild_New/CardBoardPublishNew/CardboardA/CardBoardA/Il2CppOutputProject/Source/il2cppOutput",
-    "SymbolsFolder": "/Users/josephmoreno/Desktop/CardBoardBuild_New/CardBoardPublishNew/CardboardA/CardBoardA/Il2CppOutputProject/Source/il2cppOutput/Symbols",
+    "Generatedcppdir": "/Users/melanienakaue/Documents/GitHub/CardboardA/Il2CppOutputProject/Source/il2cppOutput",
+    "SymbolsFolder": "/Users/melanienakaue/Documents/GitHub/CardboardA/Il2CppOutputProject/Source/il2cppOutput/Symbols",
     "DebugAssemblyName": [],
     "DebugEnableAttach": false,
     "EnableDotMemory": false,
@@ -63,7 +63,7 @@
     "Emscripten": {},
     "Platform": "iOS",
     "Architecture": "arm64",
-    "Outputpath": "/Users/josephmoreno/Library/Developer/Xcode/DerivedData/Unity-iPhone-eurojfslwmktbmceytesbkrzfwlq/Build/Products/ReleaseForRunning-iphoneos/libGameAssembly.a",
+    "Outputpath": "/Users/melanienakaue/Library/Developer/Xcode/DerivedData/Unity-iPhone-aeqiovsxlgkaheddejnewjsasikl/Build/Products/ReleaseForRunning-iphoneos/libGameAssembly.a",
     "DontDeployBaselib": false,
     "Verbose": false,
     "Forcerebuild": false,
@@ -92,13 +92,13 @@
     "WriteBarrierValidation": false,
     "EnableReload": false,
     "GoogleBenchmark": false,
-    "Cachedirectory": "/Users/josephmoreno/Library/Developer/Xcode/DerivedData/Unity-iPhone-eurojfslwmktbmceytesbkrzfwlq/Build/Intermediates.noindex/Unity-iPhone.build/ReleaseForRunning-iphoneos/artifacts/arm64",
+    "Cachedirectory": "/Users/melanienakaue/Library/Developer/Xcode/DerivedData/Unity-iPhone-aeqiovsxlgkaheddejnewjsasikl/Build/Intermediates.noindex/Unity-iPhone.build/ReleaseForRunning-iphoneos/artifacts/arm64",
     "ProfilerReport": true,
-    "ProfilerOutputFile": "/Users/josephmoreno/Desktop/CardBoardBuild_New/CardBoardPublishNew/CardboardA/CardBoardA/Il2CppOutputProject/Source/il2cppOutput/profile.json",
+    "ProfilerOutputFile": "/Users/melanienakaue/Documents/GitHub/CardboardA/Il2CppOutputProject/Source/il2cppOutput/profile.json",
     "PrintCommandLine": true,
     "StaticLibIl2Cpp": true,
-    "DataFolder": "/Users/josephmoreno/Desktop/CardBoardBuild_New/CardBoardPublishNew/CardboardA/CardBoardA/Il2CppOutputProject/Source/il2cppOutput/Data",
-    "Jobs": 8
+    "DataFolder": "/Users/melanienakaue/Documents/GitHub/CardboardA/Il2CppOutputProject/Source/il2cppOutput/Data",
+    "Jobs": 10
   },
   "ConvertToCpp": false,
   "CompileCpp": true,
