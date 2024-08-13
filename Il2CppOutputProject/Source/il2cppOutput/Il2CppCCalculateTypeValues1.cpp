@@ -1737,6 +1737,7 @@ struct StringDatum_tD1B268D3A13E422ED946FB81B6F16438D77645A0;
 struct StringDictionary_t5E04D28BB2830FCBD04F7EB6092E5137EF8495FE;
 struct SubMeshDescriptor_t699E32E3F27A97CF89B0030F74C82D5FB7DEF934;
 struct SubsystemProvider_tE1865B8FE698C81A59AED35E0E536BD53F402455;
+struct SwitchSceneByResize_t8D61749493D175D1A906F434D9800662B75227FF;
 struct SymbolDocumentInfo_tA9A0448DE427113FDD3737FBAD9518461781A8B3;
 struct TMP_Asset_t135A047D4F5CBBA9CD356B762B55AB164122B969;
 struct TMP_Character_t7D37A55EF1A9FF6D0BFE6D50E86A00F80E7FAF35;
@@ -6215,7 +6216,7 @@ struct U3CU3Ec__DisplayClass21_0_t9AE48FD34643B3E83D69BD45882795E81C13E0A1  : pu
 {
 	Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___callback;
 };
-struct U3CFadeOutU3Ed__21_t1596D3F426F8DB92B4B4EE1560361D30A09B6BB3  : public RuntimeObject
+struct U3CFadeOutU3Ed__25_t524AAB3783CA829DA508257F6B2E74F1CC2F6198  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -6223,7 +6224,7 @@ struct U3CFadeOutU3Ed__21_t1596D3F426F8DB92B4B4EE1560361D30A09B6BB3  : public Ru
 	float ___FadeTime;
 	float ___U3CstartVolumeU3E5__2;
 };
-struct U3CplayFinalClipU3Ed__20_t31067459FDBE2871F976969384DC01DD4EC00AC7  : public RuntimeObject
+struct U3CplayFinalClipU3Ed__24_t35272D21F6C66129C7C2FEEF9A27FA282A3121C3  : public RuntimeObject
 {
 	int32_t ___U3CU3E1__state;
 	RuntimeObject* ___U3CU3E2__current;
@@ -6990,6 +6991,7 @@ struct U3CNoCollideU3Ed__23_t8E4255A778E8D883C899A0A1BDCA0A8FE7781299  : public 
 	RuntimeObject* ___U3CU3E2__current;
 	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___colliders;
 	float ___duration;
+	SwitchSceneByResize_t8D61749493D175D1A906F434D9800662B75227FF* ___U3CU3E4__this;
 };
 struct U3CU3Ec__DisplayClass76_0_t252C7EBA85009F54F3B01B190C9026A73EAAF6D9  : public RuntimeObject
 {
@@ -39305,6 +39307,10 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	ARPlane_tB2F02248AD4019D141553B25C1B9005913E98EF0* ___plane;
 	ARPlaneManager_t9DA6C512BDCFFBEE8B3DAA7170EB3BFFDE26A928* ___planeManager;
 	SwitchSceneByResizeU5BU5D_tBDC11693F32327C0EB68A0575CC4AD6EBEE142EE* ___sceneSwitchers;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___StartingSpot;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Character;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Character1;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Character2;
 };
 struct GazeReticle_t7F05235AF4FAB7EC97BDDEED5D1FDF30366D9D8A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -54659,9 +54665,9 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize8758 = { sizeof(SleepingMan_
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8759;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8759 = { sizeof(SmoothFollow_tA903A1B2A39A1692B2C6123D6EDD64D2EDCBAF4E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8760;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8760 = { sizeof(U3CFadeOutU3Ed__21_t1596D3F426F8DB92B4B4EE1560361D30A09B6BB3), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8760 = { sizeof(U3CFadeOutU3Ed__25_t524AAB3783CA829DA508257F6B2E74F1CC2F6198), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8761;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize8761 = { sizeof(U3CplayFinalClipU3Ed__20_t31067459FDBE2871F976969384DC01DD4EC00AC7), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize8761 = { sizeof(U3CplayFinalClipU3Ed__24_t35272D21F6C66129C7C2FEEF9A27FA282A3121C3), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8762;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize8762 = { sizeof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6), -1, sizeof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields), 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize8763;
